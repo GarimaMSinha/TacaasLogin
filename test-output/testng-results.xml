@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12607" started-at="2018-09-10T10:07:27Z" finished-at="2018-09-10T10:07:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12607" started-at="2018-09-10T10:07:27Z" finished-at="2018-09-10T10:07:40Z">
+      <class name="test.TacaasLogin">
+        <test-method status="PASS" signature="PreLogin()[pri:0, instance:test.TacaasLogin@ff5b51f]" name="PreLogin" is-config="true" duration-ms="17" started-at="2018-09-10T10:07:27Z" finished-at="2018-09-10T10:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreLogin -->
+        <test-method status="PASS" signature="OpenLink()[pri:0, instance:test.TacaasLogin@ff5b51f]" name="OpenLink" is-config="true" duration-ms="9181" started-at="2018-09-10T10:07:27Z" finished-at="2018-09-10T10:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLink -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:test.TacaasLogin@ff5b51f]" name="Login" duration-ms="2569" started-at="2018-09-10T10:07:36Z" data-provider="getCredentials" finished-at="2018-09-10T10:07:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IN04804L]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fly@1212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="BrowserClose()[pri:0, instance:test.TacaasLogin@ff5b51f]" name="BrowserClose" is-config="true" duration-ms="808" started-at="2018-09-10T10:07:39Z" finished-at="2018-09-10T10:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserClose -->
+      </class> <!-- test.TacaasLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
